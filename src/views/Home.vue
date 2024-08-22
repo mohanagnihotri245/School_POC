@@ -38,6 +38,6 @@ import event from '@/components/event.vue'
 
 <Alumi/>
 
-<div class="flex items-center justify-center h-20 bg-gray-300"></div>
+
 <!-- End of template-->
 </template>
