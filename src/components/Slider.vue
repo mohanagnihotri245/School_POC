@@ -18,41 +18,41 @@
       
       <!-- Slide 1 -->
       <div class="carousel-item active c-item">
-        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/v1/Vuejs-project/yiwatrdfygpjho4bg14i" class="d-block w-100 c-img" alt="Slide 1">
+        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/jcfofzlrua5bkdrp49oz" class="d-block w-100 c-img" alt="Slide 1">
         <div class="carousel-caption top-20 mt-4">
-          <h1 class="display-1 fw-bolder text-capitalize">Data Engineering</h1>
+          <h1 class="display-1 fw-bolder text-capitalize"></h1>
         </div>
       </div>
       
       <!-- Slide 2 -->
       <div class="carousel-item c-item">
-        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/v1/Vuejs-project/gekopdhiym1mp6mk2seq" class="d-block w-100 c-img" alt="Slide 2">
+        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/xhd5v8arzcsuuxiwlptj" class="d-block w-100 c-img" alt="Slide 2">
         <div class="carousel-caption top-12 mt-4">
-          <p class="display-1 fw-bolder text-capitalize">Analytics & Business Intelligence</p>
+          <p class="display-1 fw-bolder text-capitalize"></p>
         </div>
       </div>
       
       <!-- Slide 3 -->
       <div class="carousel-item c-item">
-        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/v1/Vuejs-project/g0l7jsoxiq2laf2fmzfs" class="d-block w-100 c-img" alt="Slide 3">
+        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/wvamxnkwwkssgrgwqose" class="d-block w-100 c-img" alt="Slide 3">
         <div class="carousel-caption top-12 mt-4">
-          <p class="display-1 fw-bolder text-capitalize">IT Infrastructure & Cloud Services</p>
+          <p class="display-1 fw-bolder text-capitalize"></p>
         </div>
       </div>
       
       <!-- Slide 4 -->
       <div class="carousel-item c-item">
-        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/v1/Vuejs-project/oxo24fjubwpzn9ozxei4" class="d-block w-100 c-img" alt="Slide 4">
+        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/wgnxv2undtcigtrgjvm5" class="d-block w-100 c-img" alt="Slide 4">
         <div class="carousel-caption top-20 mt-4">
-          <p class="display-1 fw-bolder text-capitalize">Software Engineering</p>
+          <p class="display-1 fw-bolder text-capitalize"></p>
         </div>
       </div>
       
       <!-- Slide 5 -->
       <div class="carousel-item c-item">
-        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/v1/Vuejs-project/dctynaqxkpwbvda6t5eh" class="d-block w-100 c-img" alt="Slide 5">
+        <img src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/gee9sm1raqw0yyditq7n" class="d-block w-100 c-img" alt="Slide 5">
         <div class="carousel-caption top-20 mt-4">
-          <p class="display-1 fw-bolder text-capitalize">Staffing Solutions</p>
+          <p class="display-1 fw-bolder text-capitalize"></p>
         </div>
       </div>
       
@@ -85,14 +85,15 @@
 
   /* Custom styles for carousel items */
   .c-item {
-    height: 480px;
+    height: 600px; /* Adjust the height as needed */
   }
-  
-  /* Custom styles for carousel images */
+
+  /* Ensure carousel images fit the container properly */
   .c-img {
     height: 100%;
-    object-fit: cover;
-    filter: brightness(0.6);
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    filter: brightness(0.6); /* Optional: Darkens the image for better text visibility */
   }
 
 /*  End of Script */

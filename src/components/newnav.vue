@@ -43,7 +43,7 @@
             <div class="flex px-2 lg:px-0">
               <!-- Logo container -->
               <div class="flex-shrink-0 flex items-center">
-                <img class="h-10 w-auto" src="https://i.ibb.co/H7jDM6F/download.png" alt="download" border="0">
+                <img class="h-16 w-auto" src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/o4t9d7nqlciqbbah6wcf" alt="download" border="0">
               </div>
               <!-- Navigation links for large screens -->
               <div class="hidden lg:ml-6 lg:flex lg:space-x-8">

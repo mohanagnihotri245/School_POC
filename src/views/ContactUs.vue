@@ -17,10 +17,6 @@
     </div>
 </section>
 
-<section class="location .fade-in">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d18186.17136255342!2d77.30636159928063!3d28.603648681839246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390cfc9ac04d9895%3A0xe310947799391d99!2sVasundhara%20Enclave%2C%20Shaheed%20Captain%20Sameer%20Bhan%20Marg%2C%20Near%20Dharamshila%20Cancer%20Hospital%2C%20Vasundhara%20Enclave%2C%20New%20Delhi%2C%20Delhi%2C%20110096!3m2!1d28.601247299999997!2d77.3156944!5e0!3m2!1sen!2sin!4v1723453099239!5m2!1sen!2sin"
-        width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
 
 <section class="contactus .fade-in">
     <div class="row">
@@ -58,6 +54,11 @@
         </div>
     </div>
 </section>
+<section class="location .fade-in">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d18186.17136255342!2d77.30636159928063!3d28.603648681839246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390cfc9ac04d9895%3A0xe310947799391d99!2sVasundhara%20Enclave%2C%20Shaheed%20Captain%20Sameer%20Bhan%20Marg%2C%20Near%20Dharamshila%20Cancer%20Hospital%2C%20Vasundhara%20Enclave%2C%20New%20Delhi%2C%20Delhi%2C%20110096!3m2!1d28.601247299999997!2d77.3156944!5e0!3m2!1sen!2sin!4v1723453099239!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
 <div class="flex items-center justify-center h-20 bg-gray-300"></div>
 </template>
 <script setup>

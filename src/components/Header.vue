@@ -29,17 +29,13 @@
       <div class="mr-auto ml-auto max-w-3xl lg:ml-0 lg:mr-8">
         
         <!-- Heading -->
-        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Work with Vitana</h2>
+        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">About The College</h2>
         
         <!-- Paragraph with description -->
         <p class="mt-6 text-lg leading-8 text-gray-300">
-          Vitana is a global professional services firm that offers top-notch Data Engineering, Analytics, IT, and Staffing
-          solutions to organizations. Using advanced technologies and innovation, they deliver transformational outcomes in a
-          competitive digital world.
+          Founded in 1954 by truely nationalists people, Arya PG College, Panipat has the distinction of being one of the oldest colleges in Haryana, adjoining to Delhi. Today, the college can boast of a special campus, state-of-art infrastructural facilities and highly acclaimed faculty trained at leading Universities in India. Though, the primary stress of the college is on achieving academic excellence, yet we also provide various opportunities to help students by enhancing their knowledge and skills in the areas that we believe are important for their all round development.
           <br><br>
-          Beginning in 2015, Vitana changed the way professional services are offered. We focus on building long lasting
-          relationships and help our customers succeed over building our bottom line. Our clients have continuously ranked us a
-          top vendor.
+          The college provides a liberal, lively and competitive environment enabling students to carve out a niche for themselves in the chosen areas. Besides the infrastructural facilities, the strength of the college lies in its congenial and enriching atmosphere, which plays a crucial role in maintaining the excellent record the college is renowned for.
         </p>
       </div>
       
@@ -62,8 +58,7 @@
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-white">Mission</div>
             <p class="text-gray-300 text-base">
-              Understand our client’s unique needs and deliver highest quality, customized business solutions at an affordable
-              cost.
+              To become a premier college recognized globally for its excellence in creation of high thinking professionals and visionaries with an appropriate focus on right grooming for accepting any challenge in the real world life.
             </p>
           </div>
         </div>
@@ -73,9 +68,17 @@
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-white">Vision</div>
             <p class="text-gray-300 text-base">
-              To be a globally recognized corporation that provides next generation technology and staffing solutions, conceived
-              through the power of innovation, executed with superlative agility, and delivered by a team of talented and
-              passionate professionals.
+              To create excellence in various perspectives, dimensions and domain through quality education.
+
+To foster a passion for learning & creative thinking among all stakeholders.
+
+To render inventive education by offering practical, innovative & technology driven programmes.
+
+To prepare management & technical professionals with a global mindset.
+
+To innovate curriculum & methodology according to the changing dynamics of business & industry.
+
+
             </p>
           </div>
         </div>

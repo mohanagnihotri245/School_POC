@@ -120,5 +120,28 @@
   tr:nth-child(even) {
     background-color: #f2f2f2;
   }
+  @media (max-width: 768px) {
+  /* Wrap the table in a div with overflow-x: auto to allow scrolling */
+  .merged-table {
+    padding: 10px;
+  }
+  
+  table {
+    display: block; /* Allows the table to become scrollable */
+    width: 100%; /* Ensures it takes full width */
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents table cells from wrapping */
+  }
+
+  th, td {
+    padding: 8px; /* Reduce padding for smaller screens */
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+
+  .section-title {
+    font-size: 20px; /* Smaller font for titles */
+    margin-top: 30px; /* Adjusted margin for mobile view */
+  }
+}
   </style>
   
