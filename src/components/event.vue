@@ -86,10 +86,9 @@ export default {
 .event-list,
 .additional-section {
   background: #fff;
-  /* padding: 20px; */
+  border: 1px solid #f5f5f5; /* Off-White border */
   padding-left: 20px;
   padding-right: 20px;
- 
   height: 350px; /* Fixed height for equal sizing */
   margin-bottom: 30px;
   overflow: hidden; /* Hide overflow for columns except the middle one */
@@ -143,5 +142,42 @@ export default {
   margin-right: 10px;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack columns vertically */
+    gap: 10px; /* Reduce gap for smaller screens */
+  }
 
+  .flex-item {
+    width: 100%; /* Full width for each item in mobile view */
+  }
+
+  .latest-news,
+  .event-list,
+  .additional-section {
+    height: auto; /* Allow sections to adjust height dynamically */
+    padding: 15px 10px; /* Adjust padding for smaller screens */
+  }
+
+  .heading-sect {
+    width: 100%; /* Ensure the sticky header fits the container */
+    margin-left: 0; /* Remove negative margin on mobile */
+  }
+
+  .event-date {
+    width: 30px; /* Smaller date box for mobile */
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .event-list {
+    height: 250px; /* Fixed height for scrolling in mobile view */
+    overflow-y: auto; /* Ensure scroll works on mobile as well */
+  }
+
+  .head-title {
+    font-size: 14px; /* Slightly smaller title font size */
+  }
+}
 </style>

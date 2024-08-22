@@ -27,7 +27,7 @@
                     <div class="profile">
                       <div class="img-area">
                         <img
-                          src="https://via.placeholder.com/200"
+                          src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                           alt="Profile Picture"
                         />
                       </div>
@@ -40,20 +40,15 @@
                   <div class="col-md-6">
                     <div class="content">
                       <p>
-                        <span><i class="fa fa-quote-left"></i></span>Lorem ipsum
+                        <br>
+                        Lorem ipsum
                         dolor sit amet, consectetur adipisicing elit. Vel a eius
                         excepturi molestias commodi aliquam error magnam
                         consectetur laboriosam numquam, minima eveniet nostrum
                         sequi saepe ipsam non ea, inventore tenetur! Corporis
                         commodi consequatur molestiae voluptatum!
                       </p>
-                      <p class="socials">
-                        <i class="fab fa fa-twitter"></i>
-                        <i class="fab fa fa-behance"></i>
-                        <i class="fab fa fa-pinterest"></i>
-                        <i class="fab fa fa-dribbble"></i>
-                        <i class="fab fa fa-vimeo"></i>
-                      </p>
+                    
                     </div>
                   </div>
                 </div>
@@ -66,7 +61,7 @@
                     <div class="profile">
                       <div class="img-area">
                         <img
-                          src="https://via.placeholder.com/200"
+                          src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                           alt="Profile Picture"
                         />
                       </div>
@@ -79,20 +74,15 @@
                   <div class="col-md-6">
                     <div class="content">
                       <p>
-                        <span><i class="fa fa-quote-left"></i></span>Lorem ipsum
+                        <br>
+                        Lorem ipsum
                         dolor sit amet, consectetur adipisicing elit. Vel a eius
                         excepturi molestias commodi aliquam error magnam
                         consectetur laboriosam numquam, minima eveniet nostrum
                         sequi saepe ipsam non ea, inventore tenetur! Corporis
                         commodi consequatur molestiae voluptatum!
                       </p>
-                      <p class="socials">
-                        <i class="fab fa fa-twitter"></i>
-                        <i class="fab fa fa-behance"></i>
-                        <i class="fab fa fa-pinterest"></i>
-                        <i class="fab fa fa-dribbble"></i>
-                        <i class="fab fa fa-vimeo"></i>
-                      </p>
+                    
                     </div>
                   </div>
                 </div>
@@ -105,7 +95,7 @@
                     <div class="profile">
                       <div class="img-area">
                         <img
-                          src="https://via.placeholder.com/200"
+                          src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                           alt="Profile Picture"
                         />
                       </div>
@@ -118,20 +108,15 @@
                   <div class="col-md-6">
                     <div class="content">
                       <p>
-                        <span><i class="fa fa-quote-left"></i></span>Lorem ipsum
+                        <br>
+                        Lorem ipsum
                         dolor sit amet, consectetur adipisicing elit. Vel a eius
                         excepturi molestias commodi aliquam error magnam
                         consectetur laboriosam numquam, minima eveniet nostrum
                         sequi saepe ipsam non ea, inventore tenetur! Corporis
                         commodi consequatur molestiae voluptatum!
                       </p>
-                      <p class="socials">
-                        <i class="fab fa fa-twitter"></i>
-                        <i class="fab fa fa-behance"></i>
-                        <i class="fab fa fa-pinterest"></i>
-                        <i class="fab fa fa-dribbble"></i>
-                        <i class="fab fa fa-vimeo"></i>
-                      </p>
+                    
                     </div>
                   </div>
                 </div>
@@ -219,7 +204,7 @@
       height: 200px;
       width: 200px;
       border-radius: 50%;
-      border: 7px solid blueviolet;
+      border: 7px solid rgb(56, 218, 247);
     }
     .content {
       font-size: 18px;
@@ -240,8 +225,27 @@
     }
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
-      background-color: blueviolet;
+      background-color: rgb(0, 0, 0);
       opacity: 1; /* Ensure controls are fully visible */
     }
+    @media (max-width: 768px) {
+    .carousel-item {
+      height: auto; /* Adjust carousel item height for mobile */
+    }
+    .single-item {
+      margin: 20px 10px; /* Reduce margin on mobile */
+      padding: 10px; /* Adjust padding on mobile */
+    }
+    .content {
+      font-size: 16px; /* Smaller font size for mobile */
+    }
+    .content p span {
+      font-size: 36px; /* Adjust quote icon size */
+    }
+    .img-area img {
+      height: 150px; /* Smaller image for mobile */
+      width: 150px;
+    }
+  }
   </style>
   

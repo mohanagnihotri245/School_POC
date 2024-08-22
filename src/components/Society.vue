@@ -30,7 +30,7 @@
           <div class="relative z-0 mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
             <!-- Testimonial card-->
             <div class="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-              <img class="absolute inset-0 h-100 w-full object-cover z-0" src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100" alt="" />
+              <img class="absolute inset-0 h-100 w-full object-cover z-0" src="https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/xhd5v8arzcsuuxiwlptj" alt="" />
               <div class="absolute inset-0 bg-gradient-to-t from-black opacity-50 z-0"></div>
             </div>
           </div>
