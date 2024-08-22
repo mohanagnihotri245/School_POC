@@ -7,7 +7,7 @@
   <Institute/>
 <Society/>
 <Mandatory/>
-<Temp/>
+<Approval/>
   
    <!-- Section containing Frequently Asked Questions (FAQ) -->
    <div class="bg-gray-900">
@@ -34,7 +34,7 @@
   </div>
   
    <!-- The gray Line before the footer  -->
-   <div class="flex items-center justify-center h-20 bg-gray-300"></div>
+   <!-- <div class="flex items-center justify-center h-20 bg-gray-300"></div> -->
         
    <!-- End of template-->
   </template>
@@ -60,6 +60,7 @@ import Institute from '@/components/Institute.vue';
 import Society from '@/components/Society.vue';
 import event from '@/components/event.vue'
 import Mandatory from '@/components/Mandatory.vue';
+import Approval from '@/components/Approval.vue'
 
 
   const faqs = [

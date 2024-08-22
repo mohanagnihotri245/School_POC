@@ -54,29 +54,29 @@
   <script setup>
   const people = [
     {
-      name: 'Lindsay Walton',
-      role: 'Front-end Developer',
+      name: 'Manoj Kumar ',
+      role: 'Chairman',
       imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-      description: 'Lindsay is a skilled front-end developer with a passion for building beautiful and functional web interfaces.',
+        'https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/jmecs4arcjpwgzrhqden',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam.',
       twitterUrl: '#',
       linkedinUrl: '#',
     },
     {
-      name: 'Courtney Henry',
-      role: 'UI/UX Designer',
+      name: 'Manoj Singh',
+      role: 'Principal',
       imageUrl:
-        'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-      description: 'Courtney has a keen eye for design and user experience, creating intuitive interfaces that users love.',
+        'https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/kccpc0yusi2tqy3j3wjk',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam',
       twitterUrl: '#',
       linkedinUrl: '#',
     },
     {
-      name: 'Tom Cook',
-      role: 'Software Engineer',
+      name: 'Manoj Kumar',
+      role: 'Director',
       imageUrl:
-        'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80',
-      description: 'Tom specializes in backend development and enjoys tackling complex problems with innovative solutions.',
+        'https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/chbqeviwqk8mcpcjbjfs',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam',
       twitterUrl: '#',
       linkedinUrl: '#',
     },

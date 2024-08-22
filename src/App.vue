@@ -7,6 +7,7 @@ import Navigation from './components/Navigation.vue';
 import { RouterView } from 'vue-router';
 import Scroll from './components/scroll.vue';
 import Newnav from './components/newnav.vue';
+import QuickLinks from './components/QuickLinks.vue';
 
 // End of Script
 </script>
@@ -24,6 +25,8 @@ import Newnav from './components/newnav.vue';
         <router-view/>
 
     <!-- Injecting  Footing Component (Common Component on all Pages)-->
+     <QuickLinks/>
+     <div class="flex items-center justify-center h-20 bg-gray-300"></div>
     <Footer/> 
 </div>
 

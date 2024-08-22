@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-header text-center pb-0">
-                    <h7>Contact Us</h7>
+                    <h1>Contact Us</h1>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
             <div>
                 <i class="fa fa-home"></i>
                 <span>
-                    <h5>Evergreen Public School</h5>
+                    <h5>Amity University</h5>
                     <p>Delhi, India</p>
                 </span>
             </div>
@@ -59,7 +59,7 @@
         width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
-<div class="flex items-center justify-center h-20 bg-gray-300"></div>
+<!-- <div class="flex items-center justify-center h-20 bg-gray-300"></div> -->
 </template>
 <script setup>
 import { onMounted } from 'vue';
@@ -94,7 +94,9 @@ onMounted(() => {
     padding: 50px 10px;
     padding-bottom: 10px;
 }
-
+h1{
+   font-size: 40px;
+}
 .location {
     width: 80%;
     margin: auto;

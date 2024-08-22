@@ -1,8 +1,8 @@
 <template>
   <Popover class="relative">
     <PopoverButton class="inline-flex items-center gap-x-0.5 text-sm font-semibold leading-6 text-gray-900">
-      <span>Solutions</span>
-      <ChevronDownIcon class="h-0 w-4" aria-hidden="true" />
+      <span>Achievements</span>
+      <ChevronDownIcon class="h-5 w-4" aria-hidden="true" />
     </PopoverButton>
 
     <transition enter-active-class="transition ease-out duration-200" enter-from-class="opacity-0 translate-y-1" enter-to-class="opacity-100 translate-y-0" leave-active-class="transition ease-in duration-150" leave-from-class="opacity-100 translate-y-0" leave-to-class="opacity-0 translate-y-1">
@@ -46,11 +46,12 @@ import {
 } from '@heroicons/vue/24/outline'
 
 const solutions = [
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'Security', description: "Your customers' data will be safe and secure", href: '#', icon: FingerPrintIcon },
-  { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-  { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
+  { name: 'Academics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
+  { name: 'Sports', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
+  { name: 'Shining Stars', description: "Your customers' data will be safe and secure", href: '#', icon: FingerPrintIcon },
+  { name: 'NCC', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
+  { name: 'NSS', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
+
 ]
 
 </script>
