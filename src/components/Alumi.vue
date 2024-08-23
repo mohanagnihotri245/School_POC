@@ -8,7 +8,7 @@
     rel="stylesheet"
   />
 
-  <section>
+  <section class="alumni-section">
     <div class="testimonials">
       <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none text-center mx-auto">
         <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">Alumni</h2>
@@ -142,84 +142,85 @@
   body {
     font-family: Montserrat;
   }
-  section {
-    display: grid;
-    place-items: center;
-    height: 50vh;
-    margin-top: 10px;
+
+  section.alumni-section {
+    margin-top: 20px; /* Add margin to avoid overlap */
+    margin-bottom: 60px; /* Add margin to ensure space below */
   }
+
   .testimonials {
-    padding: 0 15px 30px; /* Reduced padding-bottom */
-    margin: 0 auto 50px auto; /* Reduced margin-bottom */
+    padding: 0 15px 30px;
+    margin: 0 auto 50px auto;
   }
+
   .carousel-item {
-    height: 70vh;
+    height: 60vh; /* Adjusted height to fit content */
     background-color: transparent;
   }
+
   .single-item {
     background: #fff;
     color: #111;
-    padding: 10px; /* Reduced padding */
-    margin: 30px 15px; /* Reduced margin */
+    padding: 20px;
+    margin: 30px 15px;
+    border-radius: 10px; /* Added border-radius for a better look */
   }
+
   .profile {
-    margin-bottom: 20px; /* Reduced margin-bottom */
+    margin-bottom: 20px;
     text-align: center;
   }
+
   .img-area {
-    margin: 0 15px 15px 200px;
+    margin: 0 15px 15px 250px;
   }
+
   .img-area img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
     border: 7px solid rgb(56, 218, 247);
   }
+  .bio{
+    padding-left: 120px;
+  
+  }
   .content {
     font-size: 18px;
   }
+
   .content p {
     text-align: justify;
   }
-  .content p span {
-    font-size: 48px;
-    margin-right: 20px;
-    color: blueviolet;
-  }
+
   .carousel-control-next-icon,
   .carousel-control-prev-icon {
     background-color: rgb(0, 0, 0);
     opacity: 1;
   }
+
   @media (max-width: 768px) {
     .carousel-item {
       height: auto;
     }
-    .testimonials{
-       padding: 0 15px 30px; /* Reduced padding-bottom */
-    margin: 0 auto 50px auto; /* Reduced margin-bottom */
-    }
+
     .single-item {
       margin: 20px 10px;
       padding: 10px;
     }
+
     .content {
       font-size: 16px;
     }
-    .content p span {
-      font-size: 36px;
-    }
+
     .img-area {
       margin: 0 50px 15px 80px;
       text-align: center;
     }
+
     .img-area img {
       height: 150px;
       width: 150px;
-    }
-    .profile {
-      text-align: center;
-      margin-bottom: 20px;
     }
   }
 </style>

@@ -24,21 +24,21 @@
             <div>
                 <i class="fa fa-home"></i>
                 <span>
-                    <h5>Amity University</h5>
-                    <p>Delhi, India</p>
+                    <h5>Hindu College Of Engineering </h5>
+                    <p>Sonepat, Haryana, India</p>
                 </span>
             </div>
             <div>
                 <i class="fa fa-phone"></i>
                 <span>
-                    <h5>00-000000</h5>
+                    <h5> 0130-2212756, 9034090663</h5>
                     <p>Monday to Friday, 10am to 6pm</p>
                 </span>
             </div>
             <div>
                 <i class="fa fa-envelope"></i>
                 <span>
-                    <h5>evergreenpubl@gmail.com</h5>
+                    <h5>hce.snp@hcesonepat.org</h5>
                     <p>Email us your queries</p>
                 </span>
             </div>
@@ -55,7 +55,7 @@
     </div>
 </section>
 <section class="location .fade-in">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d18186.17136255342!2d77.30636159928063!3d28.603648681839246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x390cfc9ac04d9895%3A0xe310947799391d99!2sVasundhara%20Enclave%2C%20Shaheed%20Captain%20Sameer%20Bhan%20Marg%2C%20Near%20Dharamshila%20Cancer%20Hospital%2C%20Vasundhara%20Enclave%2C%20New%20Delhi%2C%20Delhi%2C%20110096!3m2!1d28.601247299999997!2d77.3156944!5e0!3m2!1sen!2sin!4v1723453099239!5m2!1sen!2sin"
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.214877540552!2d77.01485307551361!3d28.981002975476283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db005944115cf%3A0x256a324c99ea9143!2sHindu%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1724401598121!5m2!1sen!2sin"
         width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 

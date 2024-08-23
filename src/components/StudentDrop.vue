@@ -48,7 +48,7 @@
   const solutions = [
     { name: 'Admission', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
     { name: 'List of Documents Required', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
-    { name: 'Fee Strcture', description: "Your customers' data will be safe and secure", href: '#', icon: FingerPrintIcon },
+    { name: 'Fee Structure', description: "Your customers' data will be safe and secure", href: '#', icon: FingerPrintIcon },
     { name: 'Syllabus', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
     { name: 'Result', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
     { name: 'Academic Calender', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },

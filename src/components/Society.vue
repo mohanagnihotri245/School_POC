@@ -1,5 +1,5 @@
 <template>
-    <div class="relative bg-white py-16 sm:py-24">
+    <div class="relative bg-white pt-0 pb-10 sm:py-24">
       <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
         
         <!-- Text content section -->
