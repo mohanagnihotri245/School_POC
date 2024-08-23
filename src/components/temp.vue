@@ -1,117 +1,90 @@
 <template>
-  <Popover class="relative">
-    <PopoverButton class="inline-flex items-center gap-x-0.5 text-sm font-semibold leading-6 text-gray-900">
-      <span>Courses</span>
-      <ChevronDownIcon class="h-5 w-4" aria-hidden="true" />
-    </PopoverButton>
-
-    <transition
-      enter-active-class="transition ease-out duration-200"
-      enter-from-class="opacity-0 translate-y-1"
-      enter-to-class="opacity-100 translate-y-0"
-      leave-active-class="transition ease-in duration-150"
-      leave-from-class="opacity-100 translate-y-0"
-      leave-to-class="opacity-0 translate-y-1"
-    >
-      <PopoverPanel class="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-        <div class="w-fit max-w-md flex-auto overflow-hidden rounded-2xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5">
-          <div class="p-2">
-            <div
-              v-for="item in solutions"
-              :key="item.name"
-              class="group relative flex gap-x-6 rounded-lg p-2 hover:bg-gray-50"
-            >
-              <Popover class="relative">
-                <PopoverButton class="inline-flex items-center gap-x-0.5 text-sm font-semibold text-gray-900">
-                  <span>{{ item.name }}</span>
-                  <ChevronDownIcon class="h-4 w-4 ml-1" aria-hidden="true" />
-                </PopoverButton>
-
-                <transition
-                  enter-active-class="transition ease-out duration-200"
-                  enter-from-class="opacity-0 translate-y-1"
-                  enter-to-class="opacity-100 translate-y-0"
-                  leave-active-class="transition ease-in duration-150"
-                  leave-from-class="opacity-100 translate-y-0"
-                  leave-to-class="opacity-0 translate-y-1"
-                >
-                  <PopoverPanel class="absolute z-20 left-full top-0 mt-0 ml-2 w-48 origin-top-left bg-white shadow-lg ring-1 ring-black ring-opacity-5">
-                    <div class="p-2">
-                      <a v-for="subItem in item.subItems" :key="subItem.name" :href="subItem.href" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-                        {{ subItem.name }}
-                      </a>
-                    </div>
-                  </PopoverPanel>
-                </transition>
-              </Popover>
-            </div>
-          </div>
-          <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-            <a
-              v-for="item in callsToAction"
-              :key="item.name"
-              :href="item.href"
-              class="flex items-center justify-center gap-x-2.5 p-3 font-semibold text-gray-900 hover:bg-gray-100"
-            >
-              <component :is="item.icon" class="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-              {{ item.name }}
-            </a>
-          </div>
+  <div class="pt-20"> <!-- Added padding-top to account for sticky navbar -->
+    <div class="bg-white py-4 sm:py-6">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto w-full lg:mx-0">
+          <h2
+            style="color: Gray"
+            class="text-3xl font-bold tracking-tight text-green-900 sm:text-4xl text-center"
+          >
+            THE TEAM
+          </h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">
+            Introduction to the team...
+          </p>
         </div>
-      </PopoverPanel>
-    </transition>
-  </Popover>
+        <ul
+          role="list"
+          class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-0 gap-y-0 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+        >
+          <li v-for="person in people" :key="person.name">
+            <ul role="list" class="mt-3 flex gap-x-3">
+              <div class="m-2 space-y-2">
+                <div
+                  class="group flex flex-col gap-1 rounded-lg p-5 text-gray"
+                  tabindex="1"
+                >
+                  <div style="width:320px;" class="group relative m-0 flex h-72 w-72 rounded-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
+                    <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
+                      <img :src="person.image" class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+                    </div>
+                    <!-- <div style="background-color: Gray; width:70%;" class="p-3 rounded-xl opacity-60 absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110 group-hover:opacity-100">
+                      <h1 class="text-lg font-bold text-white">{{ person.name }}</h1>
+                      <h2 class="text-m font-light text-gray-200">{{ person.role }}</h2>
+                    </div> -->
+                  </div>
+                  <p class="pl-5 text-gray-400 hover:text-gray-500">
+                    <a :href="person.linkedin" target="_blank">
+                      <span class="sr-only">LinkedIn</span>
+                      <svg style="display: inline;" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                        <path 
+                          fill-rule="evenodd"
+                          d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
+                          clip-rule="evenodd"
+                        />
+                      </svg>&nbsp;<span style="font-size: .8em; font-style: italic;">connect with {{ person.name.split(' ')[0] }}</span>
+                    </a>
+                  </p>
+                  <div
+                    class="invisible h-auto max-h-0 p-5 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000"
+                  >
+                    <p style="font-size: .9em;" v-html="person.bio"></p>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </template>
 
-<script setup>
-import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/solid'
-import {
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-} from '@heroicons/vue/24/outline'
-
-const solutions = [
-  { 
-    name: 'Diploma', 
-    
-    icon: ChartPieIcon,
-    subItems: [
-      { name: 'CSE'},
-      { name: 'EE'},
-      { name: 'CE'},
-      { name: 'ECE'},
-    ]
-  },
-  { 
-    name: 'UG', 
-    icon: CursorArrowRaysIcon,
-    subItems: [
-    { name: 'BA/BCom'},
-    { name: 'BCA'},
-    { name: 'BBA'},
-    { name: 'B.Tech'},
-    ]
-  },
-  { 
-    name: 'PG', 
-    
-    icon: FingerPrintIcon,
-    subItems: [
-    { name: 'MBA'},
-    { name: 'MCA'},
-    { name: 'MA/MSc'},
-    { name: 'M.Tech'},
-    ]
-  },
-  
-]
-
-const callsToAction = [
-  { name: 'Skill Oriented' },
-  // { name: 'View Demo'},
-]
-
+<script>
+export default {
+  data() {
+    return {
+      people: [
+        {
+          name: 'Juliet Smith',
+          role: 'Team Leader',
+          image: 'https://res.cloudinary.com/dqhy9zq3g/image/upload/f_auto,q_auto/rjijqcgg6yamo8idggge',
+          linkedin: 'https://linkedin.com',
+          bio: 'This is all about Juliet',
+        },
+        {
+          name: 'Andrew Davis',
+          role: 'Analyst',
+          image: 'https://img.freepik.com/free-photo/portrait-adult-male-smiling_23-2148729648.jpg',
+          linkedin: 'https://linkedin.com',
+          bio: 'This is all about Andrew',
+        }
+      ]
+    };
+  }
+}
 </script>
+
+<style scoped>
+/* Add any component-specific styles here */
+</style>

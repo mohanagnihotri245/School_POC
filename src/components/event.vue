@@ -9,11 +9,22 @@
           </div>
           <marquee behavior="" direction="up">
             <ul class="latest-news-ul">
-              <li>31 Mar 2024 PHD merit list part 01-15</li>
-              <li>31 Mar 2024 PHD merit list part 01-15</li>
-              <li>31 Mar 2024 PHD merit list part 01-15</li>
-              <li>31 Mar 2024 PHD merit list part 01-15</li>
-              <li>31 Mar 2024 PHD merit list part 01-15</li>
+              <li>
+                <img src="https://hcoesonepat.org/hcoe/wp-content/uploads/2017/10/new10_e0.gif" alt="" style="float:left;">
+                 31 Mar 2024 PHD merit list part 01-15
+              </li>
+              <li>
+                <img src="https://hcoesonepat.org/hcoe/wp-content/uploads/2017/10/new10_e0.gif" alt="" style="float:left;">
+                 31 Mar 2024 PHD merit list part 01-15
+              </li>
+              <li>
+                <img src="https://hcoesonepat.org/hcoe/wp-content/uploads/2017/10/new10_e0.gif" alt="" style="float:left;">
+                 31 Mar 2024 PHD merit list part 01-15
+              </li>
+              <li>
+                <img src="https://hcoesonepat.org/hcoe/wp-content/uploads/2017/10/new10_e0.gif" alt="" style="float:left;">
+                 31 Mar 2024 PHD merit list part 01-15
+              </li>
             </ul>
           </marquee>
         </div>
@@ -141,7 +152,9 @@ export default {
   padding: 5px;
   margin-right: 10px;
 }
-
+marquee{
+  height: 300px;
+}
 @media (max-width: 768px) {
   .container {
     flex-direction: column; /* Stack columns vertically */

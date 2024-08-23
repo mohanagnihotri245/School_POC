@@ -35,7 +35,7 @@
     <!-- card starts here -->
     <div class="card shadow">
         <div class="card-body text-center">
-            <h3>100+ times <br> Events</h3>
+            <h3>100+  <br> Events</h3>
             <hr class="mx-auto w-75">
             <i class="fa-solid fa-calendar-days icon-large"></i>
             <img src="" alt="" class="card-img-top">
